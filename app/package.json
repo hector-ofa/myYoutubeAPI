@@ -1,0 +1,21 @@
+{
+  "name": "myyoutubeapi",
+  "version": "1.0.0",
+  "description": "strater project to start understanding the youtube data api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "googleapis": "^128.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
